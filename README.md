@@ -32,22 +32,20 @@
   - 8、C#中可以使用字符串串联将两个或更多变量值简单合并成一个新的变量值。  
 示例：  
 ```csharp
-      string firstName = "Bob";  
-	    string message = "Hello " + firstName;  
-	    Console.WriteLine(message);
+string firstName = "Bob";
+string message = "Hello " + firstName;
+Console.WriteLine(message);
 
-
-      Output：Hello Bob
+//输出结果：Hello Bob
 ```
   - 9、将文本字符串以$为前缀，变量名用{ }结合可以优化合并的结构。  
 示例：  
 ```csharp
-      int version = 11;  
-      string updateText = "Update to Windows";  
-      Console.WriteLine($"{updateText} {version}!");
+int version = 11;
+string updateText = "Update to Windows";
+Console.WriteLine($"{updateText} {version}!");
 
-
-      Output：Update to Windows 11!
+//输出结果：Update to Windows 11!
 ```
   - 10、
 
