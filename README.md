@@ -41,7 +41,7 @@ string updateText = "Update to Windows";
 Console.WriteLine($"{updateText} {version}!");
 
 Output：Update to Windows 11!
-  - 
+  - 10、
 
 
 
