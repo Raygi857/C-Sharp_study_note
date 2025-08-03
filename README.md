@@ -38,7 +38,7 @@ Console.WriteLine(message);
 
 //输出结果：Hello Bob
 ```
-  - 9、将文本字符串以$为前缀，变量名用{ }结合可以优化合并的结构。  
+   - 9、将文本字符串以$为前缀，变量名用{ }结合可以优化合并的结构。  
 示例：  
 ```csharp
 int version = 11;
@@ -47,7 +47,7 @@ Console.WriteLine($"{updateText} {version}!");
 
 //输出结果：Update to Windows 11!
 ```
-  - 10、
+   - 10、
 
 
 
