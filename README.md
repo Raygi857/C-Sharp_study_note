@@ -31,7 +31,7 @@
   - 7、使用 \u 加上四个字符的代码来表示字符串中的 Unicode 字符 (UTF-16)。（根据应用程序的不同Unicode字符可能无法正确打印）
   - 8、C#中可以使用字符串串联将两个或更多变量值简单合并成一个新的变量值。  
 示例：  
-'''
+'''csharp
       string firstName = "Bob";  
 	    string message = "Hello " + firstName;  
 	    Console.WriteLine(message);
@@ -39,8 +39,8 @@
 
       Output：Hello Bob
   - 9、将文本字符串以$为前缀，变量名用{ }结合可以优化合并的结构。  
-示例： 
-''' 
+示例：  
+'''csharp
       int version = 11;  
       string updateText = "Update to Windows";  
       Console.WriteLine($"{updateText} {version}!");
